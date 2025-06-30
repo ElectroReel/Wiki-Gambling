@@ -1,0 +1,53 @@
+.info {
+    color: #4fdff6;
+    background-color: #032830;
+    padding: 20px;
+    border-left: #087990 solid 4px;
+}
+
+.info::before {
+    content: "info : ";
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.danger {
+    background-color: #2c0b0e;
+    color: #ea866e;
+    border-left: #842029 solid 4px;
+    padding: 20px;
+}
+
+.danger::before {
+    content: "danger : ";
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.attention {
+    content: "Danger : ";
+    font-weight: 700;
+    border-left: #997404 solid 4px;
+    padding: 20px;
+    background-color: #332701;
+}
+
+.attention::before {
+    content: "Attention ! ";
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.update {
+    color: #75b786;
+    padding: 20px;
+    background-color: #051b11;
+    border-left: #0f5132 solid 4px;
+}
+
+.update::before {
+    content: "Update : ";
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
